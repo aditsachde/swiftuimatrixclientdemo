@@ -3,16 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		403A78B7639D9E9E2E2FD7CF /* Pods_Koven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EDAB1F6AEFA2B66378873E /* Pods_Koven.framework */; };
+		C915809725BD693700F03576 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C915809625BD693700F03576 /* OverlayView.swift */; };
+		C917F76E25BD431F0037B774 /* OverlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C917F76D25BD431F0037B774 /* OverlayManager.swift */; };
+		C917F77625BD43300037B774 /* OverlayManagerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C917F77525BD432F0037B774 /* OverlayManagerDataSource.swift */; };
+		C982D50725B03342006F716F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C982D50625B03342006F716F /* Message.swift */; };
+		C989356025B1439A0049EFD1 /* RoomItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989355F25B1439A0049EFD1 /* RoomItemView.swift */; };
+		C98B04A025CD1584003D7B95 /* RoomBubbleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98B049F25CD1584003D7B95 /* RoomBubbleCell.swift */; };
+		C98C0B0425C7F3110003B514 /* RoomIncomingTextMsgBubbleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C0B0225C7F3110003B514 /* RoomIncomingTextMsgBubbleCell.swift */; };
+		C9B9F0D225B975FC00B35F7C /* MXRoomSummary+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9F0D125B975FC00B35F7C /* MXRoomSummary+URL.swift */; };
+		C9B9F17A25BA573A00B35F7C /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9F17925BA573A00B35F7C /* RoomViewController.swift */; };
 		C9C28C7F25AE56AC0096478F /* KovenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C28C7E25AE56AC0096478F /* KovenApp.swift */; };
 		C9C28C8125AE56AC0096478F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C28C8025AE56AC0096478F /* ContentView.swift */; };
 		C9C28C8325AE56AE0096478F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C28C8225AE56AE0096478F /* Assets.xcassets */; };
 		C9C28C8625AE56AE0096478F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C28C8525AE56AE0096478F /* Preview Assets.xcassets */; };
 		C9C28C9125AE56AE0096478F /* KovenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C28C9025AE56AE0096478F /* KovenTests.swift */; };
 		C9C28C9C25AE56AE0096478F /* KovenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C28C9B25AE56AE0096478F /* KovenUITests.swift */; };
+		C9C28CD325AE58C40096478F /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C28CD225AE58C40096478F /* AuthView.swift */; };
+		C9C28CDC25AE5A080096478F /* MatrixState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C28CDB25AE5A080096478F /* MatrixState.swift */; };
+		C9C28CE525AE5BB50096478F /* RoomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C28CE425AE5BB50096478F /* RoomListView.swift */; };
+		C9C28D0125AEA7C90096478F /* RoomListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C28D0025AEA7C90096478F /* RoomListDataSource.swift */; };
+		C9C28D0625AED5300096478F /* MatrixAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C28D0525AED5300096478F /* MatrixAuth.swift */; };
+		C9C28D1F25AEE2A00096478F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C28D1E25AEE2A00096478F /* LoginView.swift */; };
+		C9C28D4B25B11EBC0096478F /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C28D4A25B11EAE0096478F /* RoomView.swift */; };
+		C9D82AC025B2D6C500D754CB /* GlobalSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D82ABF25B2D6C500D754CB /* GlobalSettingsView.swift */; };
+		C9D82AC825B2D6D100D754CB /* GlobalSettingsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D82AC725B2D6D100D754CB /* GlobalSettingsDataSource.swift */; };
+		C9E9EEFD25BAAA94004646EA /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E9EEFC25BAAA94004646EA /* VerificationView.swift */; };
+		C9E9EF0525BAAABB004646EA /* VerificationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E9EF0425BAAABB004646EA /* VerificationDataSource.swift */; };
+		C9EF0EAD25D7CE8100B5FCE4 /* BubbleCellAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF0EAC25D7CE8100B5FCE4 /* BubbleCellAttributes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +55,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4AB81E8CC9DCDB68A244BA19 /* Pods-Koven.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koven.release.xcconfig"; path = "Target Support Files/Pods-Koven/Pods-Koven.release.xcconfig"; sourceTree = "<group>"; };
+		B8EDAB1F6AEFA2B66378873E /* Pods_Koven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Koven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C915809625BD693700F03576 /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		C917F76D25BD431F0037B774 /* OverlayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayManager.swift; sourceTree = "<group>"; };
+		C917F77525BD432F0037B774 /* OverlayManagerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayManagerDataSource.swift; sourceTree = "<group>"; };
+		C982D50625B03342006F716F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C982D50E25B034B4006F716F /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		C989355F25B1439A0049EFD1 /* RoomItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomItemView.swift; sourceTree = "<group>"; };
+		C98B049F25CD1584003D7B95 /* RoomBubbleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomBubbleCell.swift; sourceTree = "<group>"; };
+		C98C0B0225C7F3110003B514 /* RoomIncomingTextMsgBubbleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomIncomingTextMsgBubbleCell.swift; sourceTree = "<group>"; };
+		C9B9F0D125B975FC00B35F7C /* MXRoomSummary+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MXRoomSummary+URL.swift"; sourceTree = "<group>"; };
+		C9B9F0D625B9801F00B35F7C /* Koven.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Koven.entitlements; sourceTree = "<group>"; };
+		C9B9F0DA25B9815D00B35F7C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		C9B9F17925BA573A00B35F7C /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
 		C9C28C7B25AE56AC0096478F /* Koven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C28C7E25AE56AC0096478F /* KovenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KovenApp.swift; sourceTree = "<group>"; };
 		C9C28C8025AE56AC0096478F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +81,19 @@
 		C9C28C9725AE56AE0096478F /* KovenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KovenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C28C9B25AE56AE0096478F /* KovenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KovenUITests.swift; sourceTree = "<group>"; };
 		C9C28C9D25AE56AE0096478F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C28CD225AE58C40096478F /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		C9C28CDB25AE5A080096478F /* MatrixState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixState.swift; sourceTree = "<group>"; };
+		C9C28CE425AE5BB50096478F /* RoomListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListView.swift; sourceTree = "<group>"; };
+		C9C28D0025AEA7C90096478F /* RoomListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListDataSource.swift; sourceTree = "<group>"; };
+		C9C28D0525AED5300096478F /* MatrixAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixAuth.swift; sourceTree = "<group>"; };
+		C9C28D1E25AEE2A00096478F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C9C28D4A25B11EAE0096478F /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
+		C9D82ABF25B2D6C500D754CB /* GlobalSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSettingsView.swift; sourceTree = "<group>"; };
+		C9D82AC725B2D6D100D754CB /* GlobalSettingsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSettingsDataSource.swift; sourceTree = "<group>"; };
+		C9E9EEFC25BAAA94004646EA /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		C9E9EF0425BAAABB004646EA /* VerificationDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationDataSource.swift; sourceTree = "<group>"; };
+		C9EF0EAC25D7CE8100B5FCE4 /* BubbleCellAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleCellAttributes.swift; sourceTree = "<group>"; };
+		E0F46E038038B6A6D65C1187 /* Pods-Koven.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koven.debug.xcconfig"; path = "Target Support Files/Pods-Koven/Pods-Koven.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403A78B7639D9E9E2E2FD7CF /* Pods_Koven.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +122,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63615314764A5E75D8EC9FD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9B9F0DA25B9815D00B35F7C /* CoreTelephony.framework */,
+				B8EDAB1F6AEFA2B66378873E /* Pods_Koven.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C917F76C25BD430D0037B774 /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				C917F76D25BD431F0037B774 /* OverlayManager.swift */,
+				C915809625BD693700F03576 /* OverlayView.swift */,
+				C917F77525BD432F0037B774 /* OverlayManagerDataSource.swift */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
+		C91DF67025C54EF200BF05DC /* BubbleCells */ = {
+			isa = PBXGroup;
+			children = (
+				C98B049F25CD1584003D7B95 /* RoomBubbleCell.swift */,
+				C98C0B0225C7F3110003B514 /* RoomIncomingTextMsgBubbleCell.swift */,
+				C9EF0EAC25D7CE8100B5FCE4 /* BubbleCellAttributes.swift */,
+			);
+			path = BubbleCells;
+			sourceTree = "<group>";
+		};
+		C982D4E225B0192E006F716F /* MatrixKitExp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MatrixKitExp;
+			sourceTree = "<group>";
+		};
+		C98C0B1A25C8D5C90003B514 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				C982D50E25B034B4006F716F /* Bridging-Header.h */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		C9B9F0D025B975E200B35F7C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C9B9F0D125B975FC00B35F7C /* MXRoomSummary+URL.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C9C28C7225AE56AC0096478F = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +181,8 @@
 				C9C28C8F25AE56AE0096478F /* KovenTests */,
 				C9C28C9A25AE56AE0096478F /* KovenUITests */,
 				C9C28C7C25AE56AC0096478F /* Products */,
+				D7DCB665D6DCE0464CAD0A5D /* Pods */,
+				63615314764A5E75D8EC9FD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,10 +199,21 @@
 		C9C28C7D25AE56AC0096478F /* Koven */ = {
 			isa = PBXGroup;
 			children = (
+				C98C0B1A25C8D5C90003B514 /* ThirdParty */,
 				C9C28C7E25AE56AC0096478F /* KovenApp.swift */,
 				C9C28C8025AE56AC0096478F /* ContentView.swift */,
+				C917F76C25BD430D0037B774 /* Overlay */,
+				C9C28CCB25AE58870096478F /* Authentication */,
+				C9E9EEFB25BAAA7C004646EA /* Encryption */,
+				C9C28CE325AE5B730096478F /* RoomList */,
+				C9D82ABE25B2D6B100D754CB /* GlobalSettings */,
+				C9C28CEF25AE61F80096478F /* Room */,
+				C982D4E225B0192E006F716F /* MatrixKitExp */,
+				C9B9F0D025B975E200B35F7C /* Extensions */,
+				C9C28CDA25AE59F40096478F /* Models */,
 				C9C28C8225AE56AE0096478F /* Assets.xcassets */,
 				C9C28C8725AE56AE0096478F /* Info.plist */,
+				C9B9F0D625B9801F00B35F7C /* Koven.entitlements */,
 				C9C28C8425AE56AE0096478F /* Preview Content */,
 			);
 			path = Koven;
@@ -130,6 +245,72 @@
 			path = KovenUITests;
 			sourceTree = "<group>";
 		};
+		C9C28CCB25AE58870096478F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				C9C28CD225AE58C40096478F /* AuthView.swift */,
+				C9C28D1E25AEE2A00096478F /* LoginView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		C9C28CDA25AE59F40096478F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9C28D0525AED5300096478F /* MatrixAuth.swift */,
+				C9C28CDB25AE5A080096478F /* MatrixState.swift */,
+				C982D50625B03342006F716F /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C9C28CE325AE5B730096478F /* RoomList */ = {
+			isa = PBXGroup;
+			children = (
+				C9C28CE425AE5BB50096478F /* RoomListView.swift */,
+				C9C28D0025AEA7C90096478F /* RoomListDataSource.swift */,
+				C989355F25B1439A0049EFD1 /* RoomItemView.swift */,
+			);
+			path = RoomList;
+			sourceTree = "<group>";
+		};
+		C9C28CEF25AE61F80096478F /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				C91DF67025C54EF200BF05DC /* BubbleCells */,
+				C9C28D4A25B11EAE0096478F /* RoomView.swift */,
+				C9B9F17925BA573A00B35F7C /* RoomViewController.swift */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		C9D82ABE25B2D6B100D754CB /* GlobalSettings */ = {
+			isa = PBXGroup;
+			children = (
+				C9D82ABF25B2D6C500D754CB /* GlobalSettingsView.swift */,
+				C9D82AC725B2D6D100D754CB /* GlobalSettingsDataSource.swift */,
+			);
+			path = GlobalSettings;
+			sourceTree = "<group>";
+		};
+		C9E9EEFB25BAAA7C004646EA /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				C9E9EEFC25BAAA94004646EA /* VerificationView.swift */,
+				C9E9EF0425BAAABB004646EA /* VerificationDataSource.swift */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+		D7DCB665D6DCE0464CAD0A5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0F46E038038B6A6D65C1187 /* Pods-Koven.debug.xcconfig */,
+				4AB81E8CC9DCDB68A244BA19 /* Pods-Koven.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +318,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9C28CA025AE56AE0096478F /* Build configuration list for PBXNativeTarget "Koven" */;
 			buildPhases = (
+				6D7D76B38C6C90F504E515D9 /* [CP] Check Pods Manifest.lock */,
 				C9C28C7725AE56AC0096478F /* Sources */,
 				C9C28C7825AE56AC0096478F /* Frameworks */,
 				C9C28C7925AE56AC0096478F /* Resources */,
+				BAE6BFC412F8FF16831B70CD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,6 +380,7 @@
 				TargetAttributes = {
 					C9C28C7A25AE56AC0096478F = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					C9C28C8B25AE56AE0096478F = {
 						CreatedOnToolsVersion = 12.3;
@@ -254,13 +438,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D7D76B38C6C90F504E515D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Koven-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAE6BFC412F8FF16831B70CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Koven/Pods-Koven-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Koven/Pods-Koven-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Koven/Pods-Koven-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C9C28C7725AE56AC0096478F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C982D50725B03342006F716F /* Message.swift in Sources */,
+				C9E9EEFD25BAAA94004646EA /* VerificationView.swift in Sources */,
 				C9C28C8125AE56AC0096478F /* ContentView.swift in Sources */,
+				C9B9F0D225B975FC00B35F7C /* MXRoomSummary+URL.swift in Sources */,
+				C9C28D4B25B11EBC0096478F /* RoomView.swift in Sources */,
 				C9C28C7F25AE56AC0096478F /* KovenApp.swift in Sources */,
+				C915809725BD693700F03576 /* OverlayView.swift in Sources */,
+				C9C28CD325AE58C40096478F /* AuthView.swift in Sources */,
+				C9C28D0625AED5300096478F /* MatrixAuth.swift in Sources */,
+				C989356025B1439A0049EFD1 /* RoomItemView.swift in Sources */,
+				C9E9EF0525BAAABB004646EA /* VerificationDataSource.swift in Sources */,
+				C9D82AC025B2D6C500D754CB /* GlobalSettingsView.swift in Sources */,
+				C9C28CDC25AE5A080096478F /* MatrixState.swift in Sources */,
+				C9EF0EAD25D7CE8100B5FCE4 /* BubbleCellAttributes.swift in Sources */,
+				C917F76E25BD431F0037B774 /* OverlayManager.swift in Sources */,
+				C9C28CE525AE5BB50096478F /* RoomListView.swift in Sources */,
+				C98B04A025CD1584003D7B95 /* RoomBubbleCell.swift in Sources */,
+				C9B9F17A25BA573A00B35F7C /* RoomViewController.swift in Sources */,
+				C9C28D1F25AEE2A00096478F /* LoginView.swift in Sources */,
+				C917F77625BD43300037B774 /* OverlayManagerDataSource.swift in Sources */,
+				C9C28D0125AEA7C90096478F /* RoomListDataSource.swift in Sources */,
+				C9D82AC825B2D6D100D754CB /* GlobalSettingsDataSource.swift in Sources */,
+				C98C0B0425C7F3110003B514 /* RoomIncomingTextMsgBubbleCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,9 +661,13 @@
 		};
 		C9C28CA125AE56AE0096478F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F46E038038B6A6D65C1187 /* Pods-Koven.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Koven/Koven.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Koven/Preview Content\"";
 				DEVELOPMENT_TEAM = Y3D97FCK69;
@@ -429,6 +680,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aditsachde.Koven;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Koven/ThirdParty/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -436,9 +690,13 @@
 		};
 		C9C28CA225AE56AE0096478F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB81E8CC9DCDB68A244BA19 /* Pods-Koven.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Koven/Koven.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Koven/Preview Content\"";
 				DEVELOPMENT_TEAM = Y3D97FCK69;
@@ -451,6 +709,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aditsachde.Koven;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Koven/ThirdParty/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
